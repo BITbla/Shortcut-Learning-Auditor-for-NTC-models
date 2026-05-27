@@ -1,0 +1,21 @@
+# Core numerical and ML stack
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+pandas>=2.0
+
+# Deep learning. Install the CUDA/CPU build that matches your machine:
+# https://pytorch.org/get-started/locally/
+torch>=2.0
+torchvision>=0.15
+timm>=0.9
+tensorboard>=2.13
+
+# Packet/data preprocessing
+scapy>=2.5
+Pillow>=9.5
+tqdm>=4.65
+
+# TrafficFormer/ET-BERT tokenization utilities may require sentencepiece,
+# depending on the external TrafficFormer release you use.
+sentencepiece>=0.1.99
